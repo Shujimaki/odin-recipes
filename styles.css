@@ -2,6 +2,7 @@ html {
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    background-color: rgb(231, 198, 139, 40%);
 }
 
 *,
@@ -14,7 +15,7 @@ html {
     font-family: Verdana, Tahoma, "Times New Roman", serif;
 }
 
-.index-title {
+.hero-title {
     text-align: center;
     background-color: rgb(231, 198, 139);
     border: 5px solid black ;
