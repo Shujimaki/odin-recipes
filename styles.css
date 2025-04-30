@@ -29,6 +29,10 @@ html {
     margin: 0 auto;
 }
 
+.recipes-div h2 {
+    margin: 15px auto 0px;
+}
+
 .recipe-list {
     list-style: none;
     padding: 12px;
@@ -37,9 +41,10 @@ html {
 
 .recipe-list li {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
 }
 
 .recipe-list li button {
     padding: 10px;
+    font-weight: 600;
 }
