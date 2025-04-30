@@ -60,17 +60,30 @@ p {
 
 
 /* Recipe pages */
+.back-link {
+    display: block;
+    color: rgb(83, 71, 49);
+    font-size: 18px;
+    text-decoration: none;
+    margin: 20px auto;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
 .page-content h2 {
     margin: 10px;
 }
 .recipe-image {
+    display: block;
     width: 400px;
     height: auto;
-    margin: 10px;
+    margin: 20px 10px 30px;
 }
 
 .recipe-description {
-    margin: -10px 10px 40px;
+    margin: 10px 10px 40px;
 }
 
 .recipe-components div {
