@@ -27,6 +27,10 @@ p {
     padding: 10px;
 }
 
+.page-content {
+    padding: 10px;
+}
+
 .recipes-div {
     text-align: center;
     border: 2px dashed black;
@@ -56,10 +60,17 @@ p {
 
 
 /* Recipe pages */
+.page-content h2 {
+    margin: 10px;
+}
 .recipe-image {
     width: 400px;
     height: auto;
     margin: 10px;
+}
+
+.recipe-description {
+    margin: -10px 10px 40px;
 }
 
 .recipe-components div {
