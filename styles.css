@@ -1,3 +1,4 @@
+/* Universal styles */
 html {
     padding: 0;
     border: 0;
@@ -13,6 +14,10 @@ html {
 
 * {
     font-family: Verdana, Tahoma, "Times New Roman", serif;
+}
+
+p {
+    font-size: 16px;
 }
 
 .hero-title {
@@ -47,4 +52,22 @@ html {
 .recipe-list li button {
     padding: 10px;
     font-weight: 600;
+}
+
+
+/* Recipe pages */
+.recipe-image {
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+
+.recipe-components div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+} 
+
+.recipe-components * li {
+    margin: 10px auto;
 }
